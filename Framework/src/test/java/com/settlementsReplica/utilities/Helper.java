@@ -1,4 +1,4 @@
-package com.learnautomation.utilities;
+package com.settlementsReplica.utilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,6 +6,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -35,4 +36,5 @@ public static String getCurrentDate()
 	return customFormat.format(date);
 	
 }
+
 }

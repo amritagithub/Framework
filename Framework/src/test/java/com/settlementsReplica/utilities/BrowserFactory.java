@@ -1,4 +1,4 @@
-package com.learnautomation.utilities;
+package com.settlementsReplica.utilities;
 
 import java.util.concurrent.TimeUnit;
 

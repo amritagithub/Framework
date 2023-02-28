@@ -1,15 +1,17 @@
-package com.learnautomation.pages;
+package com.settlementsReplica.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-WebDriver driver;
+import com.settlementsReplica.testcases.BaseTest;
+
+public class LoginPage extends BaseTest{
 
 // Step 1: constructor
-public LoginPage(WebDriver ldriver) {
-	this.driver=ldriver;
+public LoginPage() {
+	 PageFactory.initElements(driver, this);
 }
 
 // Step 2: By Locators

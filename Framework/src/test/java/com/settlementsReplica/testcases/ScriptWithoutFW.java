@@ -1,4 +1,4 @@
-package com.learnautomation.testcases;
+package com.settlementsReplica.testcases;
 
 import java.util.concurrent.TimeUnit;
 
